@@ -1,0 +1,20 @@
+:root {
+  /* --variable-name: variableValue */
+  --radical-red: #ff0a54ff;
+  --french-rose: #ff477eff;
+  --davys-grey: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+}
+
+.header {
+  border: solid 2px rebeccapurple;
+}
+
+.nav-container {
+  border: solid 2px rebeccapurple;
+}
+
+.main-container {
+  border: solid 2px rebeccapurple;
+}
