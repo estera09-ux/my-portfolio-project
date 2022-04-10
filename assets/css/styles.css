@@ -13,8 +13,48 @@
 
 .nav-container {
   border: solid 2px rebeccapurple;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 10px;
+  padding: 12px;
+  font-size: 25px;
+}
+
+.nav,
+a {
+  text-decoration: none;
+}
+
+#About-me,
+h1,
+p,
+h2,
+h3,
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .main-container {
+  border: solid 2px rebeccapurple;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  width: 20%;
+}
+#Projects {
+  border: solid 2px rebeccapurple;
+}
+
+.second-project {
   border: solid 2px rebeccapurple;
 }
