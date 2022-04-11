@@ -7,77 +7,92 @@
   --eerie-black: #212529ff;
 }
 
-.header {
-  border: solid 2px rebeccapurple;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
 }
+
 /* the navbar  */
 .nav-container {
-  border: solid 2px rebeccapurple;
+  background-color: var(--onyx);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  position: sticky;
+  top: 0;
 }
 
 /* these are the links within the navbar */
 .link {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   margin: 10px;
-  padding: 12px;
+  padding: 10px 20px;
   font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--french-rose);
 }
 
+.link:hover {
+  color: #fff;
+}
 .nav,
 a {
   text-decoration: none;
 }
 
-/* section id  */
-#About-me {
-  border: solid 2px rebeccapurple;
+/* section about me  */
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+#about,
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#about-me {
   padding: right 20px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-}
-
-#About-me,
-h1,
-h2,
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#About-me,
-p,
-h3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: yellow;
 }
 .main-container {
-  border: solid 2px rebeccapurple;
+  background-color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  height: 800px;
 }
 
 /* my photo */
 .center {
+  padding-top: 20px;
   display: block;
-  margin-right: auto;
-  width: 20%;
+  margin-left: 20px;
+  width: 40%;
+  border-radius: 80%;
 }
-#Projects {
+#projects {
   border: solid 2px rebeccapurple;
   object-fit: cover;
   width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.heading {
+  color: #fff;
+  font-size: 40px;
+}
+span {
+  color: var(--french-rose);
 }
 
 .second-project {
