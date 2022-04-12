@@ -43,7 +43,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 800px;
+  height: 600px;
 }
 
 /* the styling for the main content */
@@ -62,6 +62,7 @@ ul {
   background-color: var(--davys-grey);
   height: 400px;
   border: solid 1px var(--radical-red);
+  margin: 0;
 }
 
 /* about me section  */
@@ -113,8 +114,8 @@ span {
   object-fit: contain;
   display: flex;
   flex-direction: row;
-  margin: 30px;
-  padding: 10px;
+  margin: 40px;
+  padding: 20px;
   background-color: var(--davys-grey);
   border: solid 2px var(--radical-red);
   border-radius: 20px;
@@ -138,7 +139,7 @@ h3 {
   background-color: var(--davys-grey);
   text-align: center;
   justify-content: center;
-  border: solid 1px var(--radical-red);
+  padding: 10px;
 }
 #contact h2 {
   color: #fff;
@@ -163,7 +164,10 @@ h3 {
 
 .footer {
   text-align: center;
+  background-color: var(--davys-grey);
+  padding: 10px;
 }
 .footer h2 {
   font-size: 20px;
+  color: #fff;
 }
