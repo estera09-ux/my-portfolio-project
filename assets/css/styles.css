@@ -32,9 +32,10 @@
 .link:hover {
   color: #fff;
 }
-.nav-container,
+.header .nav-container,
 ul {
   text-decoration: none;
+  margin: 0;
 }
 
 .main-container {
@@ -135,10 +136,29 @@ h3 {
 #contact {
   height: 120px;
   background-color: var(--davys-grey);
+  text-align: center;
+  justify-content: center;
+  border: solid 1px var(--radical-red);
+}
+#contact h2 {
+  color: #fff;
+}
+
+.icon ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: solid 1px var(--radical-red);
+}
+
+.icon ul li {
+  position: relative;
+  display: block;
+  height: 6px;
+  width: 60px;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: 0 15px;
 }
 
 .footer {
