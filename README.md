@@ -20,6 +20,7 @@ The portfolio webpage is fully responsive, mobile friendly. There are six projec
 **Mobile**
 
 **Desktop**
+![desktop-version](./assets/css/images/screenshots/website.png)
 
 ### 💻 Technologies used
 
