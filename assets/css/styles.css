@@ -7,13 +7,6 @@
   --eerie-black: #212529ff;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  box-sizing: border-box;
-}
-
 /* the navbar  */
 .nav-container {
   background-color: var(--onyx);
@@ -104,30 +97,51 @@ span {
   color: var(--french-rose);
 }
 
-/* #projects {
-  border: solid 2px rebeccapurple;
-  object-fit: cover;
-  width: 100%;
-} */
-
 .project-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: var(--eerie-black);
 }
 
-.project-card-image {
-  width: 100px;
-  height: 200px;
-}
-#contact .icon {
-  padding: 20px;
+/* . */
+
+.project-card-image img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
   display: flex;
   flex-direction: row;
+  margin: 30px;
+  padding: 10px;
+  background-color: var(--davys-grey);
+  border: solid 2px var(--radical-red);
+  border-radius: 20px;
 }
+
+#projects h2 {
+  color: var(--radical-red);
+  text-align: center;
+  font-size: 30px;
+}
+.project-card-image:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+h3 {
+  color: #fff;
+}
+#contact {
+  height: 120px;
+  background-color: var(--davys-grey);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 1px var(--radical-red);
+}
+
 .footer {
-  padding: 30px;
-  clear: both;
   text-align: center;
 }
 .footer h2 {
