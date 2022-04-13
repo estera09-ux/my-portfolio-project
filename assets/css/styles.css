@@ -54,7 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 700px;
+  height: 750px;
 }
 
 /* the styling for the main content */
@@ -86,7 +86,7 @@ body {
 
 /* my photo */
 .center {
-  padding: 60px;
+  padding: 55px;
   margin: 40px;
   width: 20%;
   border-radius: 50%;
@@ -95,7 +95,7 @@ body {
 /* class of the content about my name  */
 .heading {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,7 +144,7 @@ span {
 
 h3 {
   color: #fff;
-  margin: 30px;
+  margin: 20px;
 }
 #contact {
   height: 120px;
@@ -203,10 +203,10 @@ h3 {
     align-items: center;
   }
 
-  .nav-container {
+  /* .nav-container {
     margin: 0px;
     padding: 0px;
-  }
+  } */
 }
 
 .fa-github,
