@@ -3,8 +3,8 @@
 ### 🚀 Getting started
 
 My personal portfolio showcasing my projects.
-For this projects we were asked to showcase our skills and projects.
-The portfolio webpage is fully responsive, mobile friendly. There are six projects displayed, etc.
+For this project I builded this portfolio using Html and CSS to showcase all of the projects I have completed so far in my coding journey.
+The portfolio webpage is fully responsive, mobile friendly.
 
 ### 💥 Deployed URL
 
@@ -20,9 +20,10 @@ The portfolio webpage is fully responsive, mobile friendly. There are six projec
 
 ### 📷 Screenshots
 
-#### Viewport
+## Viewport
 
 ![mobile-viewport](./assets/css/images/screenshots/mobile.png)
 
-**Desktop-viewport**
+## Desktop viewport
+
 ![desktop-version](./assets/css/images/screenshots/view-port.png)
