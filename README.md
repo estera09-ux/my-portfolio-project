@@ -1,30 +1,27 @@
-### 🚀 Getting started
-
 ## Personal Portfolio
+
+### 🚀 Getting started
 
 My personal portfolio showcasing my projects.
 For this projects we were asked to showcase our skills and projects.
 The portfolio webpage is fully responsive, mobile friendly. There are six projects displayed, etc.
 
-### 🛠 Functionality
-
-- Search Engine Optimization
-- Added
-
 ### 💥 Deployed URL
 
-- The URL of the github repository
-
-### 📷 Screenshots (responsive versions of the portfolio)
-
-**Mobile**
-
-**Desktop**
-![desktop-version](./assets/css/images/screenshots/website.png)
+- You can find the application deployed to github pages [here](https://estera09-ux.github.io/my-portfolio-project/)
 
 ### 💻 Technologies used
 
-- html
-- css
-- github
-- font awesome
+- HTML
+- CSS
+- Github Pages
+- FontAwesome
+- Google fonts
+
+### 📷 Screenshots
+
+**Mobile-viewport**
+![mobile-viewport](./assets/css/images/screenshots/mobile.png)
+
+**Desktop-viewport**
+![desktop-version](./assets/css/images/screenshots/view-port.png)

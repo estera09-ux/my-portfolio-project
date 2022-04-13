@@ -11,11 +11,13 @@ body {
   margin: 0;
 }
 /* the navbar  */
+
 .nav-container {
   background-color: var(--onyx);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+
   border: solid 1px var(--radical-red);
 }
 
@@ -24,7 +26,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 10px;
   padding: 10px 20px;
   font-size: 25px;
   text-decoration: none;
@@ -32,13 +33,14 @@ body {
   color: var(--french-rose);
 }
 
+/* the  effect for the links */
 .link:hover {
   color: #fff;
 }
-.header .nav-container,
-ul {
-  text-decoration: none;
-  margin: 0;
+
+/* to remove the bullets within the navbar */
+.header .nav-container ul {
+  list-style-type: none;
 }
 
 .main-container {
@@ -46,7 +48,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 600px;
+  height: 700px;
 }
 
 /* the styling for the main content */
@@ -146,6 +148,7 @@ h3 {
 }
 #contact h2 {
   color: #fff;
+  letter-spacing: 2px;
 }
 
 .icon ul {
@@ -173,6 +176,7 @@ h3 {
 .footer h2 {
   font-size: 20px;
   color: #fff;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 576px) {
@@ -190,6 +194,11 @@ h3 {
   .nav-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .nav-container {
+    margin: 0px;
+    padding: 0px;
   }
 }
 
