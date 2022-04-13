@@ -7,6 +7,11 @@
   --eerie-black: #212529ff;
 }
 
+/* added for a smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -17,7 +22,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-
   border: solid 1px var(--radical-red);
 }
 
@@ -87,6 +91,7 @@ body {
   border-radius: 50%;
 }
 
+/* class of the content about my name  */
 .heading {
   color: #fff;
   font-size: 40px;
@@ -98,7 +103,9 @@ body {
 h1,
 p {
   font-size: 20px;
-  color: var(--french-rose);
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px;
 }
 span {
   color: var(--french-rose);
@@ -110,8 +117,6 @@ span {
   justify-content: center;
   background-color: var(--eerie-black);
 }
-
-/* . */
 
 .project-card-image img {
   width: 200px;

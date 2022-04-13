@@ -20,7 +20,8 @@ The portfolio webpage is fully responsive, mobile friendly. There are six projec
 
 ### 📷 Screenshots
 
-**Mobile-viewport**
+#### Viewport
+
 ![mobile-viewport](./assets/css/images/screenshots/mobile.png)
 
 **Desktop-viewport**
