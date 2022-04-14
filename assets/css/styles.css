@@ -7,10 +7,15 @@
   --eerie-black: #212529ff;
 }
 
-/* added for a smooth scrolling behavior */
-html {
-  scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* added for a smooth scrolling behavior */
+/* html {
+  scroll-behavior: smooth;
+} */
 
 body {
   margin: 0;
@@ -18,21 +23,18 @@ body {
 /* the navbar  */
 
 .nav-container {
-  background-color: var(--onyx);
+  background-color: var(--davys-grey);
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  position: fixed;
-  width: 100vw;
+  justify-content: center;
+  margin: 0px;
+  padding: 20px 20px;
   border: solid 1px var(--radical-red);
 }
 
 /* these are the links within the navbar */
 .link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 20px;
+  padding: 30px 40px;
   font-size: 25px;
   text-decoration: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -44,6 +46,12 @@ body {
   color: #fff;
 }
 
+.header {
+  position: fixed;
+  height: 86px;
+  z-index: 10;
+  width: 100vw;
+}
 /* to remove the bullets within the navbar */
 .header .nav-container ul {
   list-style-type: none;
@@ -54,7 +62,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 750px;
+  height: 500px;
+
+  /* margin-top: 86px; */
 }
 
 /* the styling for the main content */
@@ -67,16 +77,20 @@ body {
 
 /* the styling for the about me section */
 #about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--davys-grey);
-  height: 400px;
+  background-color: var(--french-rose);
+  height: 220px;
   border: solid 1px var(--radical-red);
-  margin: 0;
+  text-align: center;
+  padding: 20px;
+  /* margin: 0; */
 }
 
-/* about me section  */
+#about-me,
+h1 {
+  font-size: 25px;
+  padding: 10px;
+}
+
 .card-about-me h1 {
   margin: 50px;
   padding: auto;
@@ -86,8 +100,8 @@ body {
 
 /* my photo */
 .center {
-  padding: 55px;
-  margin: 40px;
+  padding: 70px;
+  margin: 30px;
   width: 20%;
   border-radius: 50%;
 }
@@ -101,61 +115,79 @@ body {
   justify-content: center;
 }
 
-h1,
-p {
-  font-size: 20px;
-  color: #fff;
-  letter-spacing: 1px;
-  padding: 30px;
-}
 span {
   color: var(--french-rose);
 }
 
-.project-container {
+#main-project .project-main-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  justify-content: center; */
+  justify-content: center;
+  margin: 2rem;
+}
+/* flex-wrap: wrap;
+ 
+
+  /* #projects,
+.project-container-all,
+.project-card {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--eerie-black);
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 5px;
+}   */
+
+#projects,
+.project-container-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 5px;
+}
+
+.card-body-container h3 p {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-container-all .project-card .project-card-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-card-image img {
   width: 200px;
   height: 300px;
   object-fit: contain;
-  display: flex;
-  flex-direction: row;
-  margin: 40px;
-  padding: 20px;
-  background-color: var(--davys-grey);
+  /* display: flex;
+  flex-direction: row; */
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px;
   border: solid 2px var(--radical-red);
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
-#projects h2 {
-  color: var(--radical-red);
-  text-align: center;
-  font-size: 30px;
-}
 .project-card-image:hover {
   transform: scale(1.1);
   transition: 0.2s ease-in-out;
 }
 
-h3 {
-  color: #fff;
-  margin: 20px;
-}
 #contact {
-  height: 120px;
-  background-color: var(--davys-grey);
+  height: 90px;
   text-align: center;
-  justify-content: center;
-  padding: 10px;
-}
-#contact h2 {
-  color: #fff;
-  letter-spacing: 2px;
 }
 
 .icon ul {
@@ -175,10 +207,17 @@ h3 {
   margin: 0 15px;
 }
 
+#main-project,
+h2 {
+  text-align: center;
+  padding: 10px;
+}
+
 .footer {
   text-align: center;
   background-color: var(--davys-grey);
   padding: 10px;
+  margin: 0;
 }
 .footer h2 {
   font-size: 20px;
@@ -186,7 +225,7 @@ h3 {
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   #about,
   #about-me,
   #contact,
