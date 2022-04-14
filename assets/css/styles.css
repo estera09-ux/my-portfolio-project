@@ -125,7 +125,6 @@ span {
   display: flex;
   justify-content: center;
   width: fit-content;
-  /* margin: 1rem; */
   padding: 20px;
   box-shadow: 20px 20px 20px 10px #f6a4ea;
   margin-right: auto;
@@ -151,13 +150,12 @@ h2 {
   padding: 5px;
 }
 
-/* margin 20px was before */
+/* the styling for the main project  */
 
 .project-container-all .project-card .project-card-image {
   align-items: center;
   justify-content: center;
   background-color: var(--french-rose);
-
   margin: 30px;
   padding: 20px;
   box-shadow: 10px 10px 5px lightblue;
@@ -197,6 +195,7 @@ h2 {
   justify-content: center;
 }
 
+/* the icons links at the end of the website */
 .icon ul li {
   /* position: relative; */
   display: block;
@@ -220,11 +219,15 @@ h2 {
   letter-spacing: 2px;
 }
 
+/* added the style to the icons  */
+
 .fa-github,
 .fa-linkedin,
 .fa-envelope {
   color: var(--radical-red);
 }
+
+/*the mobile viewport  */
 
 @media (max-width: 567px) {
   .nav-container {
@@ -233,6 +236,7 @@ h2 {
     margin: 0;
   }
 
+  /* the navbar links */
   .nav-container ul {
     flex-direction: column;
     align-items: center;
@@ -248,6 +252,7 @@ h2 {
     align-items: center;
   }
 
+  /* about me section */
   #about {
     display: flex;
     justify-content: center;
@@ -256,6 +261,8 @@ h2 {
   .main {
     display: flex;
   }
+
+  /* the image of the main */
   .main .center-image {
     display: flex;
     /* flex-direction: column; */
